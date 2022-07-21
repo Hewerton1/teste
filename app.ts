@@ -2,7 +2,7 @@ import express, { Express, Request, Response } from 'express';
 
 import bodyParser from 'body-parser';
 
-import films from './controllers/filmController';
+import films from './app/controllers/filmController';
 
 const app: Express = express();
 const port: number = 3333;
